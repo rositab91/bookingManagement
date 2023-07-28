@@ -12,6 +12,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+@SuppressWarnings("serial")
 @Data
 @Builder
 @Entity
@@ -29,4 +30,3 @@ public class Building implements Serializable {
 	private String address;
 	private String city;
 }
-

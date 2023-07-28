@@ -41,5 +41,9 @@ public class Booking implements Serializable {
 		this.station = station;
 		this.user = user;
 	}
-
 	}
+
+	/*
+	 * public Booking(LocalDate bookingDate, Station station, User user) { super();
+	 * this.bookingDate = bookingDate; this.station = station; this.user = user; }
+	 */

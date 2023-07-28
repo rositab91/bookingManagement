@@ -17,12 +17,12 @@ import rositabongiovanni.bookingManagement.enum_.StationType;
 @PropertySource("classpath:application.properties")
 
 public class StationConfig {
+
 	@Bean
 	@Scope("prototype")
 	public Station stationCustom() {
 	return new Station();
 }
-
 
 @Bean
 @Scope("prototype")

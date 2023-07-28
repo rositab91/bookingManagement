@@ -16,6 +16,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import rositabongiovanni.bookingManagement.enum_.StationType;
 
+@SuppressWarnings("serial")
 @Data
 @Builder
 @Entity

@@ -55,8 +55,8 @@ public class BookingService {
 				}
 			}
 
-			public void saveBooking(Booking reserv) {
-				bookingDAO.save(reserv);
+			public void saveBooking(Booking booking) {
+				bookingDAO.save(booking);
 				log.info("Booking added to database");
 			}
 		}

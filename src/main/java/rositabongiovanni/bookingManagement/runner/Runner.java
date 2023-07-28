@@ -5,13 +5,17 @@ import java.time.LocalDate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
+import org.springframework.stereotype.Component;
 
+import lombok.extern.slf4j.Slf4j;
 import rositabongiovanni.bookingManagement.enum_.StationType;
 import rositabongiovanni.bookingManagement.service.BookingService;
 import rositabongiovanni.bookingManagement.service.BuildingService;
 import rositabongiovanni.bookingManagement.service.StationService;
 import rositabongiovanni.bookingManagement.service.UserService;
 
+@Component
+@Slf4j
 public class Runner implements ApplicationRunner {
 
 	@Autowired
